@@ -59,7 +59,8 @@ namespace C_Sharp_Lesson_One
             // --------------- 16) While Loops ---------------
             WhileLoops.WhileLoop();
 
-
+            // --------------- 17) Do While Loops ---------------
+            DoWhileLoops.DoWhileLoop();
 
         
 
@@ -78,18 +79,6 @@ namespace C_Sharp_Lesson_One
             /*
             
 
-
-
-            // --------------- 17) Do While Loops ---------------
-
-            int index2 = 1;
-            do
-            {
-                Console.WriteLine(index2);
-                index2++;
-            }while(index2 <= 5);
-
-            Console.WriteLine("------------------------------------------------------");
 
 
             // --------------- 18) Building a Guessing Game ---------------
