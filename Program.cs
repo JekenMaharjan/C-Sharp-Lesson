@@ -11,71 +11,27 @@ namespace C_Sharp_Lesson_One
     {
         static void Main(string[] args)
         {
-            /*
             // --------------- 1) Drawing a Shape ---------------
-
-            Console.WriteLine("     /|");
-            Console.WriteLine("    / |");
-            Console.WriteLine("   /  |");
-            Console.WriteLine("  /   |");
-            Console.WriteLine(" /    |");
-            Console.WriteLine("/     |");
-            Console.WriteLine("-------");
-
-            Console.WriteLine("------------------------------------------------------");
-
+            DrawingAShape.Draw();
 
             // --------------- 2) Variables ---------------
-
-            string name = "Ram";
-            int age;
-            age = 25;
-
-            Console.WriteLine("There once was a man named " + name + ".");
-            Console.WriteLine("He was " + age + " years old.");
-
-            // here, the variable "name" and "age" are modified.
-            name = "Hari";
-            age = 55;
-
-            Console.WriteLine("He really liked the name " + name + ".");
-            Console.WriteLine("But didn't like being " + age + ".");
-
-            Console.WriteLine("------------------------------------------------------");
-
+            Variables.Run();
 
             // --------------- 3) Data Types ---------------
-
-            string phrase = "C sharp course";
-            char grade = 'A';
-            int myAge = 40;
-            double gpa = 3.6; // float, double, decimal
-            bool isMale = true;
-
-            // here, "home", 30 and false are constants.
-            Console.WriteLine("home");  // home
-            Console.WriteLine(30);      // 30
-            Console.WriteLine(false);   // false
-            Console.WriteLine(myAge);   // 40
-            Console.WriteLine(isMale);  // true
-            Console.WriteLine(phrase);  // C sharp course
-
-            Console.WriteLine("------------------------------------------------------");
-
+            DataTypes.Data();
 
             // --------------- 4) Working with Strings ---------------
+            WorkingWithStrings.strings();
 
-            string text = "Working With Strings";
+            
 
-            Console.WriteLine(text);                    // Working With Strings
-            Console.WriteLine(text.Length);             // 20
-            Console.WriteLine(text.ToLower());          // working with strings
-            Console.WriteLine(text.ToUpper());          // WORKING WITH STRINGS
-            Console.WriteLine(text.IndexOf('W'));       // 0
-            Console.WriteLine(text[4]);                 // i
-            Console.WriteLine(text.Substring(8, 4));    // With
 
-            Console.WriteLine("------------------------------------------------------");
+            
+
+
+            /*
+
+            
 
 
             // --------------- 5) Working with Numbers ---------------
