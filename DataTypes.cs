@@ -23,6 +23,8 @@ namespace C_Sharp_Lesson_One
             Console.WriteLine(myAge);   // 40
             Console.WriteLine(isMale);  // true
             Console.WriteLine(phrase);  // C sharp course
+            Console.WriteLine(grade);   // A
+            Console.WriteLine(gpa);     // 3.6
         }
     }
 }
