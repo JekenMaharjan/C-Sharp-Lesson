@@ -41,7 +41,8 @@ namespace C_Sharp_Lesson_One
             // --------------- 10) Methods ---------------
             Methods.Method();
             
-
+            // --------------- 11) Return Statement ---------------
+            ReturnStatement.ReturnState();
 
 
             
@@ -61,14 +62,8 @@ namespace C_Sharp_Lesson_One
 
 
 
-            // --------------- 11) Return Statement ---------------
 
-            int numberToCube;
-
-            Console.Write("Enter a number to cube: ");
-            numberToCube = Convert.ToInt32(Console.ReadLine());
-
-            Console.WriteLine("The cube of the number is " + Cube(numberToCube));
+            
 
             Console.WriteLine("------------------------------------------------------");
 
@@ -283,11 +278,7 @@ namespace C_Sharp_Lesson_One
 
         
 
-        static int Cube(int numCube)
-        {
-            int result = Convert.ToInt32(Math.Pow(numCube, 3));
-            return result;
-        }
+        
 
         static int GetMax(int n1, int n2, int n3)
         {
