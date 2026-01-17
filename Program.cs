@@ -47,7 +47,8 @@ namespace C_Sharp_Lesson_One
             // --------------- 12) If Statement ---------------
             IfStatement.IfState();
             
-
+            // --------------- 13) More If Statements ---------------
+            MoreIfStatement.MoreIfState();
 
 
             
@@ -62,21 +63,8 @@ namespace C_Sharp_Lesson_One
 
 
 
-            // --------------- 13) More If Statements ---------------
 
-            int a1, a2, a3;
-
-            Console.WriteLine("Max number among 3 numbers:\n");
-
-            Console.Write("Enter first number: ");
-            a1 = Convert.ToInt32(Console.ReadLine());
-            Console.Write("Enter second number: ");
-            a2 = Convert.ToInt32(Console.ReadLine());
-            Console.Write("Enter third number: ");
-            a3 = Convert.ToInt32(Console.ReadLine());
-
-            Console.WriteLine("The Max number out of " + a1 + "," + a2 +  "," + a3 + " is " + GetMax(a1, a2, a3));
-            
+           
             Console.WriteLine("------------------------------------------------------");
 
 

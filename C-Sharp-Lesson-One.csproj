@@ -51,6 +51,7 @@
     <Compile Include="GettingUserInput.cs" />
     <Compile Include="IfStatement.cs" />
     <Compile Include="Methods.cs" />
+    <Compile Include="MoreIfStatement.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ReturnStatement.cs" />
