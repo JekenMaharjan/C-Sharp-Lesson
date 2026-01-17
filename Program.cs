@@ -11,6 +11,7 @@ namespace C_Sharp_Lesson_One
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("MAIN MENU\n");
             Console.WriteLine("1. Drawing a Shape");
             Console.WriteLine("2. Variables");
             Console.WriteLine("3. Data Types");
@@ -34,8 +35,8 @@ namespace C_Sharp_Lesson_One
             Console.WriteLine("21. 2D Arrays");
             Console.WriteLine("22. Comments");
             Console.WriteLine("23. Exception Handling");
-            Console.WriteLine("24. ");
 
+            Console.Write("\nEnter Your Choice : ");
             int choice = int.Parse(Console.ReadLine());
 
             switch (choice)
@@ -130,9 +131,6 @@ namespace C_Sharp_Lesson_One
 
                 case 23:
                     ExceptionHandling.ExceptionHandle();
-                    break;
-
-                case 24:
                     break;
 
                 default:

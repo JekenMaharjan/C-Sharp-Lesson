@@ -19,7 +19,7 @@ namespace C_Sharp_Lesson_One
             friends[4] = "Adams";
 
             Console.WriteLine("The Random number is " + randomNum[5]);
-            Console.WriteLine("My friends are " + friends[0] + ", " + friends[2] + ", " + friends[4])
+            Console.WriteLine("My friends are " + friends[0] + ", " + friends[2] + ", " + friends[4]);
         }
     }
 }

@@ -21,7 +21,7 @@ namespace C_Sharp_Lesson_One
             Console.Write("Enter third number: ");
             a3 = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("The Max number out of " + a1 + "," + a2 + "," + a3 + " is " + GetMax(a1, a2, a3))
+            Console.WriteLine("The Max number out of " + a1 + "," + a2 + "," + a3 + " is " + GetMax(a1, a2, a3));
         }
 
         static int GetMax(int n1, int n2, int n3)
