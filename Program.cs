@@ -50,7 +50,8 @@ namespace C_Sharp_Lesson_One
             // --------------- 13) More If Statements ---------------
             MoreIfStatement.MoreIfState();
 
-
+            // --------------- 14) Building a better Calculator ---------------
+            BuildingABetterCalculator.BuildingBetterCalc();
             
 
 
@@ -59,29 +60,12 @@ namespace C_Sharp_Lesson_One
             /*
 
 
-            
+        
 
 
 
+          
 
-           
-            Console.WriteLine("------------------------------------------------------");
-
-
-            // --------------- 14) Building a better Calculator ---------------
-
-            Console.Write("Enter a Number: ");
-            double c1 = Convert.ToDouble(Console.ReadLine());
-
-            Console.Write("Enter Operator: ");
-            string op = Console.ReadLine();
-
-            Console.Write("Enter a Number: ");
-            double c2 = Convert.ToDouble(Console.ReadLine());
-
-            Console.WriteLine("The Result is " + Calc(c1, op, c2));
-
-            Console.WriteLine("------------------------------------------------------");
 
 
             // --------------- 15) Switch Statements ---------------
@@ -232,52 +216,9 @@ namespace C_Sharp_Lesson_One
 
         
 
-        static int GetMax(int n1, int n2, int n3)
-        {
-            int result = 0;
+        
 
-            if (n1 >= n2 && n1 >= n3)
-            {
-                result = n1;
-            }
-            else if ( n2 >= n1 && n2 >= n3)
-            {
-                result = n2;
-            }
-            else
-            {
-                result = n3;
-            }
-                return result;
-        }
-
-        static double Calc(double x1, string oper, double x2)
-        {
-            double result = 0;
-
-            if (oper == "+")
-            {
-                result = (x1 + x2);
-            }
-            else if (oper == "-")
-            {
-                result = (x1 - x2);
-            }
-            else if ( oper == "*")
-            {
-                result = (x1 * x2);
-            }
-            else if (oper == "/")
-            {
-                result = (x1 / x2);
-            }
-            else
-            {
-                Console.WriteLine("Invalid Operator!");
-            }
-
-            return result;
-        }
+       
 
         static string GetDay(int dayNum)
         {

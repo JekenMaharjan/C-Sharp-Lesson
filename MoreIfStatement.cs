@@ -23,5 +23,24 @@ namespace C_Sharp_Lesson_One
 
             Console.WriteLine("The Max number out of " + a1 + "," + a2 + "," + a3 + " is " + GetMax(a1, a2, a3))
         }
+
+        static int GetMax(int n1, int n2, int n3)
+        {
+            int result = 0;
+
+            if (n1 >= n2 && n1 >= n3)
+            {
+                result = n1;
+            }
+            else if (n2 >= n1 && n2 >= n3)
+            {
+                result = n2;
+            }
+            else
+            {
+                result = n3;
+            }
+            return result;
+        }
     }
 }
