@@ -38,7 +38,8 @@ namespace C_Sharp_Lesson_One
             // --------------- 9) Arrays ---------------
             Arrays.Arr();
 
-
+            // --------------- 10) Methods ---------------
+            Methods.Method();
             
 
 
@@ -57,20 +58,7 @@ namespace C_Sharp_Lesson_One
 
           
 
-            // --------------- 10) Methods ---------------
 
-            string welcomeName;
-            int welcomeAge;
-
-            Console.Write("What's your name: ");
-            welcomeName = Console.ReadLine();
-
-            Console.Write("What's your age: ");
-            welcomeAge = Convert.ToInt32(Console.ReadLine());
-
-            SayHello(welcomeName, welcomeAge);
-
-            Console.WriteLine("------------------------------------------------------");
 
 
             // --------------- 11) Return Statement ---------------
@@ -293,10 +281,7 @@ namespace C_Sharp_Lesson_One
             Console.ReadLine();
         }
 
-        static void SayHello(string helloName, int helloAge)
-        {
-            Console.WriteLine("Hello! " + helloName + " and you're " + helloAge + "years old.");
-        }
+        
 
         static int Cube(int numCube)
         {
