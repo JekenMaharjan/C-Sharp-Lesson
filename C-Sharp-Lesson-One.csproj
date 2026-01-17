@@ -46,6 +46,7 @@
     <Compile Include="Arrays.cs" />
     <Compile Include="BuildingABetterCalculator.cs" />
     <Compile Include="BuildingACalculator.cs" />
+    <Compile Include="BuildingAGuessingGame.cs" />
     <Compile Include="BuildingAMadLibsGame.cs" />
     <Compile Include="DataTypes.cs" />
     <Compile Include="DoWhileLoops.cs" />

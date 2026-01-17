@@ -62,7 +62,8 @@ namespace C_Sharp_Lesson_One
             // --------------- 17) Do While Loops ---------------
             DoWhileLoops.DoWhileLoop();
 
-        
+            // --------------- 18) Building a Guessing Game ---------------
+            BuildingAGuessingGame.GuessGame();
 
 
 
@@ -81,38 +82,8 @@ namespace C_Sharp_Lesson_One
 
 
 
-            // --------------- 18) Building a Guessing Game ---------------
 
-            string secretWord = "professional";
-            string GuessedWord = "";
-            int guessCount = 0;
-            int guessLimit = 3;
-            bool outofLives = false;
-
-            while (GuessedWord != secretWord && !outofLives)
-            {
-                if (guessCount < guessLimit)
-                {
-                    Console.WriteLine("Enter the Guessing Word:");
-                    GuessedWord = Console.ReadLine();
-                    guessCount++;
-                }
-                else
-                {
-                    outofLives = true;
-                }
-            }
-
-            if (outofLives)
-            {
-                Console.WriteLine("You Lose!");
-            }
-            else
-            {
-                Console.WriteLine("You Win!");
-            }
-
-            Console.WriteLine("------------------------------------------------------");
+           
 
 
             // --------------- 19) For Loops ---------------
