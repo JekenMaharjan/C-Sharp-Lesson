@@ -76,48 +76,9 @@ namespace C_Sharp_Lesson_One
 
             // --------------- 22) Comments ---------------
             Comments.Comment();
-            
-
-
-
-
-            /*
-            
-
-
-
-
 
             // --------------- 23) Exception Handling ---------------
-
-            try
-            {
-                Console.WriteLine("Enter Dividend: ");
-                int x = Convert.ToInt32(Console.ReadLine());
-                Console.WriteLine("Enter Divisor : ");
-                int y = Convert.ToInt32(Console.ReadLine());
-
-                double result = Convert.ToDouble(x/y);
-                Console.WriteLine("Result : " + result);
-            }
-            catch (DivideByZeroException e)
-            {
-                Console.WriteLine(e.Message);
-            }
-            catch (FormatException e)
-            {
-                Console.WriteLine(e.Message);
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine(e.Message);
-            }
-
-            Console.WriteLine("------------------------------------------------------");
-
-
-            */
-            // --------------- 24) Exception Handling ---------------
+            ExceptionHandling.ExceptionHandle();
 
 
             // use to read input and to make the output hold
