@@ -11,75 +11,133 @@ namespace C_Sharp_Lesson_One
     {
         static void Main(string[] args)
         {
-            // --------------- 1) Drawing a Shape ---------------
-            DrawingAShape.Draw();
+            Console.WriteLine("1. Drawing a Shape");
+            Console.WriteLine("2. Variables");
+            Console.WriteLine("3. Data Types");
+            Console.WriteLine("4. Working with Strings");
+            Console.WriteLine("5. Working with Numbers");
+            Console.WriteLine("6. Getting User Input");
+            Console.WriteLine("7. Building a Calculator");
+            Console.WriteLine("8. Building a Mad Libs Game");
+            Console.WriteLine("9. Arrays");
+            Console.WriteLine("10. Methods");
+            Console.WriteLine("11. Return Statement");
+            Console.WriteLine("12. If Statement");
+            Console.WriteLine("13. More If Statements");
+            Console.WriteLine("14. Building a better Calculator");
+            Console.WriteLine("15. Switch Statements");
+            Console.WriteLine("16. While Loops");
+            Console.WriteLine("17. Do While Loops");
+            Console.WriteLine("18. Building a Guessing Game");
+            Console.WriteLine("19. For Loops");
+            Console.WriteLine("20. Building an Exponent Method");
+            Console.WriteLine("21. 2D Arrays");
+            Console.WriteLine("22. Comments");
+            Console.WriteLine("23. Exception Handling");
+            Console.WriteLine("24. ");
 
-            // --------------- 2) Variables ---------------
-            Variables.Run();
+            int choice = int.Parse(Console.ReadLine());
 
-            // --------------- 3) Data Types ---------------
-            DataTypes.Data();
+            switch (choice)
+            {
+                case 1:
+                    DrawingAShape.Draw();
+                    break;
 
-            // --------------- 4) Working with Strings ---------------
-            WorkingWithStrings.Strings();
+                case 2:
+                    Variables.Run();
+                    break;
 
-            // --------------- 5) Working with Numbers ---------------
-            WorkingWithNumbers.Numbers();
+                case 3:
+                    DataTypes.Data();
+                    break;
 
-            // --------------- 6) Getting User Input ---------------
-            GettingUserInput.Input();
+                case 4:
+                    WorkingWithStrings.Strings();
+                    break;
 
-            // --------------- 7) Building a Calculator ---------------
-            BuildingACalculator.SimpleCalc();
+                case 5:
+                    WorkingWithNumbers.Numbers();
+                    break;
 
-            // --------------- 8) Building a Mad Libs Game ---------------
-            BuildingAMadLibsGame.MadLibsGame();
+                case 6:
+                    GettingUserInput.Input();
+                    break;
 
-            // --------------- 9) Arrays ---------------
-            Arrays.Arr();
+                case 7:
+                    BuildingACalculator.SimpleCalc();
+                    break;
 
-            // --------------- 10) Methods ---------------
-            Methods.Method();
-            
-            // --------------- 11) Return Statement ---------------
-            ReturnStatement.ReturnState();
+                case 8:
+                    BuildingAMadLibsGame.MadLibsGame();
+                    break;
 
-            // --------------- 12) If Statement ---------------
-            IfStatement.IfState();
-            
-            // --------------- 13) More If Statements ---------------
-            MoreIfStatement.MoreIfState();
+                case 9:
+                    Arrays.Arr();
+                    break;
 
-            // --------------- 14) Building a better Calculator ---------------
-            BuildingABetterCalculator.BuildingBetterCalc();
-            
-            // --------------- 15) Switch Statements ---------------
-            SwitchStatements.SwitchState();
+                case 10:
+                    Methods.Method();
+                    break;
 
-            // --------------- 16) While Loops ---------------
-            WhileLoops.WhileLoop();
+                case 11:
+                    ReturnStatement.ReturnState();
+                    break;
 
-            // --------------- 17) Do While Loops ---------------
-            DoWhileLoops.DoWhileLoop();
+                case 12:
+                    IfStatement.IfState();
+                    break;
 
-            // --------------- 18) Building a Guessing Game ---------------
-            BuildingAGuessingGame.GuessGame();
+                case 13:
+                    MoreIfStatement.MoreIfState();
+                    break;
 
-            // --------------- 19) For Loops ---------------
-            ForLoops.ForLoop();
+                case 14:
+                    BuildingABetterCalculator.BuildingBetterCalc();
+                    break;
 
-            // --------------- 20) Building an Exponent Method ---------------
-            BuildingAnExponentMethod.ExponentMethod();
+                case 15:
+                    SwitchStatements.SwitchState();
+                    break;
 
-            // --------------- 21) 2D Arrays ---------------
-            _2DArrays._2DArr();
+                case 16:
+                    WhileLoops.WhileLoop();
+                    break;
 
-            // --------------- 22) Comments ---------------
-            Comments.Comment();
+                case 17:
+                    DoWhileLoops.DoWhileLoop();
+                    break;
 
-            // --------------- 23) Exception Handling ---------------
-            ExceptionHandling.ExceptionHandle();
+                case 18:
+                    BuildingAGuessingGame.GuessGame();
+                    break;
 
+                case 19:
+                    ForLoops.ForLoop();
+                    break;
+
+                case 20:
+                    BuildingAnExponentMethod.ExponentMethod();
+                    break;
+
+                case 21:
+                    _2DArrays._2DArr();
+                    break;
+
+                case 22:
+                    Comments.Comment();
+                    break;
+
+                case 23:
+                    ExceptionHandling.ExceptionHandle();
+                    break;
+
+                case 24:
+                    break;
+
+                default:
+                    break;
+            }
 
             // use to read input and to make the output hold
             Console.ReadLine();
