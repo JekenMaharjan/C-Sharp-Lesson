@@ -21,105 +21,41 @@ namespace C_Sharp_Lesson_One
             DataTypes.Data();
 
             // --------------- 4) Working with Strings ---------------
-            WorkingWithStrings.strings();
+            WorkingWithStrings.Strings();
+
+            // --------------- 5) Working with Numbers ---------------
+            WorkingWithNumbers.Numbers();
+
+            // --------------- 6) Getting User Input ---------------
+            GettingUserInput.Input();
+
+            // --------------- 7) Building a Calculator ---------------
+            BuildingACalculator.SimpleCalc();
+
+            // --------------- 8) Building a Mad Libs Game ---------------
+            BuildingAMadLibsGame.MadLibsGame();
+
+            // --------------- 9) Arrays ---------------
+            Arrays.Arr();
+
 
             
 
 
+
             
+
+
+
+            
+
+
 
 
             /*
 
-            
 
-
-            // --------------- 5) Working with Numbers ---------------
-
-            int a = 24;
-            int b = 53;
-
-            Console.WriteLine(a + b);               // 77
-            Console.WriteLine(Math.Min(a, b));      // 24
-            Console.WriteLine(Math.Max(a, b));      // 53
-            Console.WriteLine(Math.Sqrt(36));       // 6
-            Console.WriteLine(Math.Abs(-b));        // 53
-            Console.WriteLine(Math.Round(6.2));     // 6
-            Console.WriteLine(Math.Pow(5, 2));      // 25
-
-            Console.WriteLine("------------------------------------------------------");
-
-
-            // --------------- 6) Getting User Input ---------------
-
-            Console.Write("Enter your name: ");
-            string yourName = Console.ReadLine();
-
-            Console.Write("Enter your age: ");
-            string yourAge = Console.ReadLine();
-
-            Console.WriteLine("Hi! " + yourName + "." + "You are " + yourAge + " years old.");
-
-            Console.WriteLine("------------------------------------------------------");
-
-
-            // --------------- 7) Building a Calculator ---------------
-
-            // Simple add, substract, multiply, divide
-
-            Console.Write("Enter first number: ");
-            double number1 = Convert.ToDouble(Console.ReadLine());
-
-            Console.Write("Enter second number: ");
-            double number2 = Convert.ToDouble(Console.ReadLine());
-
-            Console.WriteLine(number1 + number2);
-            Console.WriteLine(number1 - number2);
-            Console.WriteLine(number1 * number2);
-            Console.WriteLine(number1 / number2);
-
-            Console.WriteLine("------------------------------------------------------");
-
-
-            // --------------- 8) Building a Mad Libs Game ---------------
-
-            Console.WriteLine("Roses are red");
-            Console.WriteLine("Violets are blue");
-            Console.WriteLine("I Love You");
-
-            string color, thing, favPerson;
-
-            Console.Write("Enter a color: ");
-            color = Console.ReadLine();
-
-            Console.Write("Enter a thing: ");
-            thing = Console.ReadLine();
-
-            Console.Write("Enter your favPerson: ");
-            favPerson = Console.ReadLine();
-
-            Console.WriteLine("Roses are " + color);
-            Console.WriteLine(thing + " are blue");
-            Console.WriteLine("I Love " + favPerson);
-
-            Console.WriteLine("------------------------------------------------------");
-
-
-            // --------------- 9) Arrays ---------------
-
-            int[] randomNum = {0, 2, 4, 5, 7, 8, 10};
-            string[] friends = new string[5];
-            friends[0] = "Ram";
-            friends[1] = "Shyam";
-            friends[2] = "Gita";
-            friends[3] = "Gorey";
-            friends[4] = "Adams";
-
-            Console.WriteLine("The Random number is " + randomNum[5]);
-            Console.WriteLine("My friends are " + friends[0] + ", " + friends[2] + ", " + friends[4]);
-
-            Console.WriteLine("------------------------------------------------------");
-
+          
 
             // --------------- 10) Methods ---------------
 

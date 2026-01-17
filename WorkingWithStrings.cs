@@ -8,7 +8,7 @@ namespace C_Sharp_Lesson_One
 {
     internal class WorkingWithStrings
     {
-        public static void strings()
+        public static void Strings()
         {
             string text = "Working With Strings";
 
