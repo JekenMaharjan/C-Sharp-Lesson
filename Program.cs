@@ -68,7 +68,8 @@ namespace C_Sharp_Lesson_One
             // --------------- 19) For Loops ---------------
             ForLoops.ForLoop();
 
-          
+            // --------------- 20) Building an Exponent Method ---------------
+            BuildingAnExponentMethod.ExponentMethod();
 
 
 
@@ -82,11 +83,9 @@ namespace C_Sharp_Lesson_One
             
 
 
-            // --------------- 20) Building an Exponent Method ---------------
 
-            Console.WriteLine(GetPow(5, 2));
+           
 
-            Console.WriteLine("------------------------------------------------------");
 
 
             // --------------- 21) 2D Arrays ---------------
@@ -159,16 +158,6 @@ namespace C_Sharp_Lesson_One
 
        
 
-        static int GetPow(int baseNum, int powNum)
-        {
-            int result = 1;
-
-            for (int i = 0; i < powNum ; i++)
-            {
-                result *= baseNum;  // result = result * baseNum
-            }
-
-            return result;
-        }
+        
     }
 }
