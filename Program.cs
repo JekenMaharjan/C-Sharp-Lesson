@@ -56,9 +56,9 @@ namespace C_Sharp_Lesson_One
             // --------------- 15) Switch Statements ---------------
             SwitchStatements.SwitchState();
 
+            // --------------- 16) While Loops ---------------
+            WhileLoops.WhileLoop();
 
-
-            /*
 
 
         
@@ -72,19 +72,12 @@ namespace C_Sharp_Lesson_One
 
             
 
-            Console.WriteLine("------------------------------------------------------");
 
 
-            // --------------- 16) While Loops ---------------
 
-            int index1 = 1;
-            while (index1 <= 5)
-            {
-                Console.WriteLine(index1);
-                index1++;
-            }
+            /*
+            
 
-            Console.WriteLine("------------------------------------------------------");
 
 
             // --------------- 17) Do While Loops ---------------

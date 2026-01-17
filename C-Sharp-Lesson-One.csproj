@@ -58,6 +58,7 @@
     <Compile Include="ReturnStatement.cs" />
     <Compile Include="SwitchStatements.cs" />
     <Compile Include="Variables.cs" />
+    <Compile Include="WhileLoops.cs" />
     <Compile Include="WorkingWithNumbers.cs" />
     <Compile Include="WorkingWithStrings.cs" />
   </ItemGroup>
