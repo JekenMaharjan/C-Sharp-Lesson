@@ -65,7 +65,8 @@ namespace C_Sharp_Lesson_One
             // --------------- 18) Building a Guessing Game ---------------
             BuildingAGuessingGame.GuessGame();
 
-
+            // --------------- 19) For Loops ---------------
+            ForLoops.ForLoop();
 
           
 
@@ -79,23 +80,6 @@ namespace C_Sharp_Lesson_One
 
             /*
             
-
-
-
-
-           
-
-
-            // --------------- 19) For Loops ---------------
-
-            int[] numbers = { 1, 3, 4, 5, 6, 7, 8, 9 };
-
-            for(int i = 0; i < numbers.Length; i++)
-            {
-                Console.WriteLine(numbers[i]);
-            }
-
-            Console.WriteLine("------------------------------------------------------");
 
 
             // --------------- 20) Building an Exponent Method ---------------

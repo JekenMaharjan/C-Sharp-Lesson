@@ -51,6 +51,7 @@
     <Compile Include="DataTypes.cs" />
     <Compile Include="DoWhileLoops.cs" />
     <Compile Include="DrawingAShape.cs" />
+    <Compile Include="ForLoops.cs" />
     <Compile Include="GettingUserInput.cs" />
     <Compile Include="IfStatement.cs" />
     <Compile Include="Methods.cs" />
