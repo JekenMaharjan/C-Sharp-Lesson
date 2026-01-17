@@ -50,6 +50,7 @@
     <Compile Include="BuildingAGuessingGame.cs" />
     <Compile Include="BuildingAMadLibsGame.cs" />
     <Compile Include="BuildingAnExponentMethod.cs" />
+    <Compile Include="Comments.cs" />
     <Compile Include="DataTypes.cs" />
     <Compile Include="DoWhileLoops.cs" />
     <Compile Include="DrawingAShape.cs" />

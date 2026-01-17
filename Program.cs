@@ -74,7 +74,8 @@ namespace C_Sharp_Lesson_One
             // --------------- 21) 2D Arrays ---------------
             _2DArrays._2DArr();
 
-
+            // --------------- 22) Comments ---------------
+            Comments.Comment();
             
 
 
@@ -85,15 +86,6 @@ namespace C_Sharp_Lesson_One
 
 
 
-            // --------------- 22) Comments ---------------
-
-            // For single line comment, use "//".
-            Console.WriteLine("For single line comment, use "//");
-
-            // For multiple line comment, use "/ * all comments here * /".
-            Console.WriteLine("For multiple line comment, use "/ * all comments here * /");
-
-            Console.WriteLine("------------------------------------------------------");
 
 
             // --------------- 23) Exception Handling ---------------
