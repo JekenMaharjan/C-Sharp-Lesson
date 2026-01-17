@@ -71,7 +71,8 @@ namespace C_Sharp_Lesson_One
             // --------------- 20) Building an Exponent Method ---------------
             BuildingAnExponentMethod.ExponentMethod();
 
-
+            // --------------- 21) 2D Arrays ---------------
+            _2DArrays._2DArr();
 
 
             
@@ -82,23 +83,6 @@ namespace C_Sharp_Lesson_One
             /*
             
 
-
-
-           
-
-
-
-            // --------------- 21) 2D Arrays ---------------
-
-            int[,] matrix = {
-                {1, 2, 3 },
-                {4, 5, 6 },
-                {5, 6, 7 }
-            };
-
-            Console.WriteLine(matrix[2,2]);
-
-            Console.WriteLine("------------------------------------------------------");
 
 
             // --------------- 22) Comments ---------------
@@ -146,18 +130,6 @@ namespace C_Sharp_Lesson_One
 
             // use to read input and to make the output hold
             Console.ReadLine();
-        }
-
-        
-
-        
-
-        
-
-       
-
-       
-
-        
+        }   
     }
 }
