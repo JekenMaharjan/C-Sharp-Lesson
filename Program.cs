@@ -53,7 +53,8 @@ namespace C_Sharp_Lesson_One
             // --------------- 14) Building a better Calculator ---------------
             BuildingABetterCalculator.BuildingBetterCalc();
             
-
+            // --------------- 15) Switch Statements ---------------
+            SwitchStatements.SwitchState();
 
 
 
@@ -68,9 +69,8 @@ namespace C_Sharp_Lesson_One
 
 
 
-            // --------------- 15) Switch Statements ---------------
 
-            Console.WriteLine(GetDay(1));
+            
 
             Console.WriteLine("------------------------------------------------------");
 
@@ -220,47 +220,7 @@ namespace C_Sharp_Lesson_One
 
        
 
-        static string GetDay(int dayNum)
-        {
-            string dayName;
-
-            switch (dayNum)
-            {
-                case 0:
-                    dayName = "Sunday";
-                    break;
-
-                case 1:
-                    dayName = "Monday";
-                    break;
-
-                case 2:
-                    dayName = "Tuesday";
-                    break;
-
-                case 3:
-                    dayName = "Wednesday";
-                    break;
-
-                case 4:
-                    dayName = "Thursday";
-                    break;
-
-                case 5:
-                    dayName = "Friday";
-                    break;
-
-                case 6:
-                    dayName = "Saturday";
-                    break;
-
-                default:
-                    dayName = "Invalid Day Number!";
-                    break;
-            }
-
-            return dayName;
-        }
+       
 
         static int GetPow(int baseNum, int powNum)
         {
