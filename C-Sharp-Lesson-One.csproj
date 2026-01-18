@@ -60,10 +60,12 @@
     <Compile Include="DrawingAShape.cs" />
     <Compile Include="ExceptionHandling.cs" />
     <Compile Include="ForLoops.cs" />
+    <Compile Include="GetterAndSetter.cs" />
     <Compile Include="GettingUserInput.cs" />
     <Compile Include="IfStatement.cs" />
     <Compile Include="Methods.cs" />
     <Compile Include="MoreIfStatement.cs" />
+    <Compile Include="Movies.cs" />
     <Compile Include="ObjectMethods.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

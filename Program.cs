@@ -38,8 +38,10 @@ namespace C_Sharp_Lesson_One
             Console.WriteLine("24. Classes and Objects");
             Console.WriteLine("25. Constructors");
             Console.WriteLine("26. Object Methods");
+            Console.WriteLine("27. Getters And Setters");
 
             Console.Write("\nEnter Your Choice : ");
+
             int choice = int.Parse(Console.ReadLine());
 
             switch (choice)
@@ -146,6 +148,10 @@ namespace C_Sharp_Lesson_One
 
                 case 26:
                     ObjectMethods.ObjMethod();
+                    break;
+
+                case 27:
+                    GetterAndSetter.GetSet();
                     break;
 
                 default:
