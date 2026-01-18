@@ -52,6 +52,7 @@
     <Compile Include="BuildingAGuessingGame.cs" />
     <Compile Include="BuildingAMadLibsGame.cs" />
     <Compile Include="BuildingAnExponentMethod.cs" />
+    <Compile Include="Chef.cs" />
     <Compile Include="ClassesAndObjects.cs" />
     <Compile Include="Comments.cs" />
     <Compile Include="Constructors.cs" />
@@ -64,6 +65,8 @@
     <Compile Include="GettingUserInput.cs" />
     <Compile Include="HelloWorld.cs" />
     <Compile Include="IfStatement.cs" />
+    <Compile Include="Inheritance.cs" />
+    <Compile Include="ItalianChef.cs" />
     <Compile Include="Methods.cs" />
     <Compile Include="MoreIfStatement.cs" />
     <Compile Include="Movies.cs" />
