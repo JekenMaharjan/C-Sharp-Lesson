@@ -45,11 +45,13 @@
   <ItemGroup>
     <Compile Include="2DArrays.cs" />
     <Compile Include="Arrays.cs" />
+    <Compile Include="Books.cs" />
     <Compile Include="BuildingABetterCalculator.cs" />
     <Compile Include="BuildingACalculator.cs" />
     <Compile Include="BuildingAGuessingGame.cs" />
     <Compile Include="BuildingAMadLibsGame.cs" />
     <Compile Include="BuildingAnExponentMethod.cs" />
+    <Compile Include="ClassesAndObjects.cs" />
     <Compile Include="Comments.cs" />
     <Compile Include="DataTypes.cs" />
     <Compile Include="DoWhileLoops.cs" />
