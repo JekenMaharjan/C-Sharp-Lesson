@@ -39,6 +39,7 @@ namespace C_Sharp_Lesson_One
             Console.WriteLine("25. Constructors");
             Console.WriteLine("26. Object Methods");
             Console.WriteLine("27. Getters And Setters");
+            Console.WriteLine("28. Static Class Attribute");
 
             Console.Write("\nEnter Your Choice : ");
 
@@ -152,6 +153,10 @@ namespace C_Sharp_Lesson_One
 
                 case 27:
                     GetterAndSetter.GetSet();
+                    break;
+
+                case 28:
+                    StaticClassAttribute.StaticClassAttri();
                     break;
 
                 default:
