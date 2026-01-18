@@ -36,6 +36,7 @@ namespace C_Sharp_Lesson_One
             Console.WriteLine("22. Comments");
             Console.WriteLine("23. Exception Handling");
             Console.WriteLine("24. Classes and Objects");
+            Console.WriteLine("25. Constructors");
 
             Console.Write("\nEnter Your Choice : ");
             int choice = int.Parse(Console.ReadLine());
@@ -136,6 +137,10 @@ namespace C_Sharp_Lesson_One
 
                 case 24:
                     ClassesAndObjects.ClassObj();
+                    break;
+
+                case 25:
+                    Constructors.Construct();
                     break;
 
                 default:

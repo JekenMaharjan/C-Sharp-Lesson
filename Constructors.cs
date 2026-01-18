@@ -6,19 +6,12 @@ using System.Threading.Tasks;
 
 namespace C_Sharp_Lesson_One
 {
-    internal class ClassesAndObjects
+    internal class Constructors
     {
-        public static void ClassObj()
+        public static void Construct()
         {
-            Books book1 = new Books();
-            book1.BookName = "The Alchemist";
-            book1.AuthorName = "Paulo Coelho";
-            book1.Price = 600;
-
-            Books book2 = new Books();
-            book2.BookName = "Think and Grow Rich";
-            book2.AuthorName = "Napoleon Hill";
-            book2.Price = 750;
+            Book book1 = new Book("The Greedy Fox", "Geeta Shree", 900);
+            Book book2 = new Book("Will This Work Well!", "Kiwin Bisnt", 500);
 
             Console.WriteLine("\n" + book1.BookName);
             Console.WriteLine(book1.AuthorName);
