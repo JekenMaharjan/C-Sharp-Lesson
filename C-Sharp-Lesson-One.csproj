@@ -64,8 +64,10 @@
     <Compile Include="IfStatement.cs" />
     <Compile Include="Methods.cs" />
     <Compile Include="MoreIfStatement.cs" />
+    <Compile Include="ObjectMethods.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Result.cs" />
     <Compile Include="ReturnStatement.cs" />
     <Compile Include="SwitchStatements.cs" />
     <Compile Include="Variables.cs" />
