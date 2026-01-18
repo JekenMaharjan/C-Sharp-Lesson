@@ -73,6 +73,63 @@ These helped me understand how basic concepts work together in real code.
 
 ---
 
+## 🧩 How to Clone This Repository in Visual Studio
+
+Follow these steps to clone this repository using **Visual Studio Community or Professional**.
+
+---
+
+### Step 1: Open Visual Studio
+- Launch **Visual Studio**
+- Make sure you are on the **Start Window**
+
+---
+
+### Step 2: Choose “Clone a repository”
+- Click on **Clone a repository**
+- If Visual Studio is already open, go to:  
+  **File → Clone Repository**
+
+---
+
+### Step 3: Enter the Repository URL
+- In the **Repository location** field, paste:  
+    https://github.com/JekenMaharjan/C-Sharp-Lesson.git
+- Choose a local folder where you want to save the project
+
+---
+
+### Step 4: Clone the Repository
+- Click **Clone**
+- Visual Studio will download the repository and open it automatically
+
+---
+
+### Step 5: Open a Lesson
+- In **Solution Explorer**, select a lesson file
+- Set the project as **Startup Project** (if needed)
+- Press **Run (▶)** or **F5**
+
+---
+
+### Step 6: Experiment and Learn
+- Modify the code
+- Run it again to see changes
+- Practice regularly to understand the concepts better
+
+---
+
+## ✅ Notes
+- Works for both **Visual Studio Community** and **Professional**
+- Make sure **.NET Desktop Development** workload is installed
+- Console applications are best run using **Ctrl + F5**
+
+---
+
+Happy coding and keep learning step by step 🚀
+
+---
+
 ## 📬 Contact
 
 For any inquiries, reach out to us at:
